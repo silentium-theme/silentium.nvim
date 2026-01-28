@@ -104,6 +104,7 @@ function M.colorscheme()
 	hl("@constant.html", { fg = M.colors.light_gray })
 	hl("@string.escape", { fg = M.colors.white })
 	hl("@tag", { fg = M.colors.accent })
+	hl("@tag.builtin", { fg = M.colors.accent })
 	hl("@tag.attribute", { fg = M.colors.white })
 	hl("@tag.delimiter", { fg = M.colors.white })
 	-- Plugins
