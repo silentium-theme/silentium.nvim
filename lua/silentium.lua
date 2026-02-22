@@ -3,15 +3,19 @@ local M = {}
 --- Accent colors
 M.accents = {
 	red = "#E85A4F",
-	orange = "#FF8E29",
-	peach = "#FFB07C",
-	yellow = "#F6CE4E",
-	lime = "#9ACD5A",
-	green = "#5FB36A",
-	cyan = "#64B8B4",
-	blue = "#5B82C7",
-	violet = "#A998F0",
+	coral = "#FF6B6B",
+	rose = "#FF758F",
 	pink = "#E57AA4",
+	lavender = "#C9A0FF",
+	violet = "#A998F0",
+	blue = "#5B82C7",
+	cyan = "#64B8B4",
+	mint = "#7CE0C2",
+	green = "#5FB36A",
+	lime = "#9ACD5A",
+	yellow = "#F6CE4E",
+	peach = "#FFB07C",
+	orange = "#FF8E29",
 }
 
 --- @class Colors
