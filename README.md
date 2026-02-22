@@ -33,7 +33,7 @@ Default palette:
 
 ```lua
 silentium.setup({
-	accent = accents.yellow,
+	accent = silentium.accents.yellow,
 	white = "#E6E6E6",
 	light_gray = "#A6A6A6",
 	gray = "#737373",
