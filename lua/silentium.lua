@@ -48,7 +48,6 @@ function M.colorscheme()
 	end
 
 	hl("@constant.html", { fg = M.colors.light_gray })
-	hl("@string.escape", { fg = M.colors.white })
 	hl("@tag", { fg = M.colors.accent })
 	hl("@tag.attribute", { fg = M.colors.white })
 	hl("@tag.builtin", { fg = M.colors.accent })
