@@ -122,6 +122,23 @@ function M.colorscheme()
 	hl("NeoTreeGitIgnored", { fg = M.colors.gray })
 	hl("NeoTreeGitModified", { fg = M.colors.accent })
 	hl("NeoTreeGitUntracked", { fg = M.colors.accent })
+
+	vim.g.terminal_color_0 = M.colors.dark_gray
+	vim.g.terminal_color_1 = M.accents.red
+	vim.g.terminal_color_2 = M.accents.green
+	vim.g.terminal_color_3 = M.accents.yellow
+	vim.g.terminal_color_4 = M.accents.blue
+	vim.g.terminal_color_5 = M.accents.pink
+	vim.g.terminal_color_6 = M.accents.cyan
+	vim.g.terminal_color_7 = M.colors.white
+	vim.g.terminal_color_8 = M.colors.gray
+	vim.g.terminal_color_9 = "#FF6A6A"
+	vim.g.terminal_color_10 = "#7AD48A"
+	vim.g.terminal_color_11 = "#FFE07A"
+	vim.g.terminal_color_12 = "#7FA2E6"
+	vim.g.terminal_color_13 = "#F29BC1"
+	vim.g.terminal_color_14 = "#7FD9D4"
+	vim.g.terminal_color_15 = "#FFFFFF"
 end
 
 --- Configure colorscheme
