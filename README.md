@@ -46,6 +46,20 @@ silentium.setup({
 })
 ```
 
+## Random accent color per session
+
+Fresh accent every time you open Neovim
+
+```lua
+local silentium = require("silentium")
+local accents = vim.tbl_keys(silentium.accents)
+local random_accent = accents[math.random(#accents)]
+
+silentium.setup({
+  accent = silentium.accents[random_accent]
+})
+```
+
 ## Extras
 
 Extra color configs for other tools can be found in
