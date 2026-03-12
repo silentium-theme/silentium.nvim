@@ -24,6 +24,7 @@ M.colors = {
 	white = "#E6E6E6",
 	light_gray = "#A6A6A6",
 	gray = "#737373",
+	ghost = "#404040",
 	dark_gray = "#282828",
 	dark = "#141414",
 	diff_add = "#273C29",
@@ -57,7 +58,7 @@ function M.colorscheme()
 	hl("Changed", { fg = M.accents.yellow })
 	hl("ColorColumn", { bg = M.colors.dark_gray })
 	hl("Comment", { fg = M.colors.gray })
-	hl("Conceal", { fg = M.colors.dark_gray })
+	hl("Conceal", { fg = M.colors.ghost })
 	hl("Constant", {})
 	hl("CursorColumn", { bg = M.colors.dark_gray })
 	hl("CursorLine", { bg = M.colors.dark_gray })
@@ -90,7 +91,7 @@ function M.colorscheme()
 	hl("MatchParen", { bg = M.colors.dark_gray })
 	hl("ModeMsg", { fg = M.accents.green })
 	hl("MoreMsg", { fg = M.accents.blue })
-	hl("NonText", { fg = M.colors.dark_gray })
+	hl("NonText", { fg = M.colors.ghost })
 	hl("Normal", { bg = M.colors.dark, fg = M.colors.white })
 	hl("NormalFloat", { bg = M.colors.dark_gray, fg = M.colors.white })
 	hl("OkMsg", { fg = M.accents.green })
@@ -106,7 +107,7 @@ function M.colorscheme()
 	hl("Removed", { fg = M.accents.red })
 	hl("SignColumn", { fg = M.colors.light_gray })
 	hl("Special", {})
-	hl("SpecialKey", { fg = M.colors.dark_gray })
+	hl("SpecialKey", { fg = M.colors.ghost })
 	hl("SpellBad", { undercurl = true, sp = M.accents.red })
 	hl("SpellCap", { undercurl = true, sp = M.accents.yellow })
 	hl("SpellLocal", { undercurl = true, sp = M.accents.green })

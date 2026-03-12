@@ -37,6 +37,7 @@ silentium.setup({
 	white = "#E6E6E6",
 	light_gray = "#A6A6A6",
 	gray = "#737373",
+    ghost = "#404040",
 	dark_gray = "#282828",
 	dark = "#141414",
 	diff_add = "#273C29",
