@@ -61,6 +61,40 @@ silentium.setup({
 })
 ```
 
+## Plugin integrations
+
+Currently, silentium.nvim does not include any external plugin configurations
+or custom highlight group definitions. The scope of this colorscheme is solely
+on the core Neovim highlight groups. Therefore, if you encounter highlighting
+issues with a specific plugin, adding that plugin's highlight groups
+definitions to the colorscheme is not an option.
+
+It's worth clarifiying that a "highlighting issue" refers to any highlighting
+that makes the plugin difficult to use, such as unreadable text or invisible
+elements. Subjections and preferences for highlighting specific details in
+external plugins fall outside the scope of silentium.nvim and should be
+addressed in the user's personal configuration or fork. If you sure you
+encounter a valid colorscheme issue, please follow these steps:
+
+First, set the default Neovim colorscheme and verify that the issue resolves,
+ensuring the plugin properly links to core highlight groups. If the problem
+persists, it is likely a fault of the plugin, not the colorscheme. In this
+case, please do not submit a patch with custom highlight groups; instead,
+report the bug to the plugin. This may lead to a permanent fix that benefits
+all colorschemes, including built-in ones.
+
+If the issue is specific to this colorscheme, you can open an issue, ideally
+including screenshots that demonstrate the issue with silentium.nvim compared
+to the default colorscheme. After identifying the problematic highlight group
+link, the appropriate fix would involve modifying the base group to align with
+the plugin's expectations, which are usually met by the default colorscheme.
+
+However, there's a low probability that the plugin links everything correctly,
+it works fine with the default colorscheme, but modifying the base group to
+satisfy both the plugin and the colorscheme is not feasible. In this case
+adding highlight groups for external plugin can be justified, we're still on
+the way to encountering a case where this is truly necessary.
+
 ## Extras
 
 Extra color configs for other tools can be found in
