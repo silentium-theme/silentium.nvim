@@ -125,13 +125,6 @@ function M.colorscheme()
 	hl("WinBar", { bg = M.colors.accent, fg = M.colors.dark })
 	hl("WinBarNC", { bg = M.colors.accent, fg = M.colors.dark })
 	hl("WinSeparator", { fg = M.colors.gray })
-	-- Plugins
-	hl("NeoTreeDirectoryIcon", { link = "Normal" })
-	hl("NeoTreeDirectoryName", { link = "Normal" })
-	hl("NeoTreeGitAdded", { fg = M.colors.accent })
-	hl("NeoTreeGitIgnored", { fg = M.colors.gray })
-	hl("NeoTreeGitModified", { fg = M.colors.accent })
-	hl("NeoTreeGitUntracked", { fg = M.colors.accent })
 
 	vim.g.terminal_color_0 = M.colors.dark_gray
 	vim.g.terminal_color_1 = M.accents.red
