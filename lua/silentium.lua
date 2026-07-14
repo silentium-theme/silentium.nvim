@@ -18,7 +18,7 @@ M.accents = {
 	orange = "#FF8E29",
 }
 
---- @class Colors
+--- @class Silentium.Colors
 M.colors = {
 	accent = M.accents.yellow,
 	white = "#E6E6E6",
@@ -145,7 +145,7 @@ function M.colorscheme()
 end
 
 --- Configure colorscheme
---- @param colors? Colors
+--- @param colors? Silentium.Colors
 function M.setup(colors)
 	if colors ~= nil then
 		M.colors = vim.tbl_extend("force", M.colors, colors)
