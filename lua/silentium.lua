@@ -126,8 +126,8 @@ function M.colorscheme()
 	hl("Type", { fg = M.colors.white })
 	hl("Visual", { bg = M.colors.dark_gray })
 	hl("WarningMsg", { fg = M.accents.yellow })
-	hl("WinBar", { bg = M.colors.accent, fg = M.colors.dark })
-	hl("WinBarNC", { bg = M.colors.accent, fg = M.colors.dark })
+	hl("WinBar", { bg = M.colors.ghost })
+	hl("WinBarNC", { bg = M.colors.dark_gray })
 	hl("WinSeparator", { fg = M.colors.gray })
 
 	vim.g.terminal_color_0 = M.colors.dark_gray
