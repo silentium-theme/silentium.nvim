@@ -41,8 +41,8 @@ local function hl(name, val)
 end
 
 function M.colorscheme()
-	vim.g.colors_name = "silentium"
 	vim.cmd.highlight("clear")
+	vim.g.colors_name = "silentium"
 	if vim.fn.exists("syntax_on") == 1 then
 		vim.cmd.syntax("reset")
 	end
