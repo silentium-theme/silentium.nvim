@@ -43,9 +43,6 @@ end
 function M.colorscheme()
 	vim.cmd.highlight("clear")
 	vim.g.colors_name = "silentium"
-	if vim.fn.exists("syntax_on") == 1 then
-		vim.cmd.syntax("reset")
-	end
 
 	hl("@constant.html", { fg = M.colors.light_gray })
 	hl("@tag", { fg = M.colors.accent })
