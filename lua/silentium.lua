@@ -27,6 +27,7 @@ M.colors = {
 	ghost = "#4D4D4D",
 	dark_gray = "#282828",
 	dark = "#141414",
+	black = "#0A0A0A",
 	diff_add = "#273C29",
 	diff_change = "#4D4322",
 	diff_delete = "#492523",
@@ -95,7 +96,7 @@ function M.colorscheme()
 	hl("MoreMsg", { fg = M.colors.accent })
 	hl("NonText", { fg = M.colors.ghost })
 	hl("Normal", { bg = M.colors.dark, fg = M.colors.white })
-	hl("NormalFloat", { bg = M.colors.dark_gray, fg = M.colors.white })
+	hl("NormalFloat", { bg = M.colors.black, fg = M.colors.white })
 	hl("OkMsg", { fg = M.accents.green })
 	hl("Operator", { fg = M.colors.white })
 	hl("Pmenu", { bg = M.colors.dark_gray })
