@@ -12,6 +12,9 @@ only what is necessary. Just install without `setup()` and go!
 Silentium theme has a set of accent colors that fit perfectly into the palette,
 just throw any color into `setup()`:
 
+Available accents: `red`, `coral`, `rose`, `pink`, `lavender`, `violet`,
+`blue`, `cyan`, `mint`, `green`, `lime`, `yellow`, `peach`, and `orange`.
+
 ```lua
 local silentium = require("silentium")
 silentium.setup({ accent = silentium.accents.peach })
