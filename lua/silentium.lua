@@ -2,20 +2,20 @@ local M = {}
 
 --- Accent colors
 M.accents = {
-	red = "#E85A4F",
-	coral = "#FF6B6B",
-	rose = "#FF758F",
-	pink = "#E57AA4",
-	lavender = "#C9A0FF",
-	violet = "#A998F0",
-	blue = "#6793D6",
-	cyan = "#64B8B4",
-	mint = "#6ECCB0",
-	green = "#5FB36A",
-	lime = "#9ACD5A",
+	red = "#DB604F",
+	coral = "#FA9593",
+	rose = "#F16A92",
+	pink = "#D270B8",
+	lavender = "#D8BBFE",
+	violet = "#9B9CFE",
+	blue = "#5B8CDB",
+	cyan = "#70C9CE",
+	mint = "#6AE4C8",
+	green = "#66B355",
+	lime = "#AEC439",
 	yellow = "#F6CE4E",
 	peach = "#FFB07C",
-	orange = "#FF8E29",
+	orange = "#F97D14",
 }
 
 --- @class Silentium.Colors
@@ -44,7 +44,9 @@ end
 function M.colorscheme()
 	-- Only clear highlight groups if another colorscheme was already loaded.
 	-- This improves startup time if the colorscheme is loaded in init.lua.
-	if vim.g.colors_name then vim.cmd.highlight("clear") end
+	if vim.g.colors_name then
+		vim.cmd.highlight("clear")
+	end
 	vim.g.colors_name = "silentium"
 
 	hl("@constant.html", { fg = M.colors.light_gray })
@@ -139,13 +141,12 @@ function M.colorscheme()
 	vim.g.terminal_color_6 = M.accents.cyan
 	vim.g.terminal_color_7 = M.colors.white
 	vim.g.terminal_color_8 = M.colors.gray
-	vim.g.terminal_color_9 = "#FF6A6A"
-	vim.g.terminal_color_10 = "#7AD48A"
+	vim.g.terminal_color_9 = "#F07967"
+	vim.g.terminal_color_10 = "#7FC96F"
 	vim.g.terminal_color_11 = "#FFE07A"
-	vim.g.terminal_color_12 = "#7FA2E6"
-	vim.g.terminal_color_13 = "#F29BC1"
-	vim.g.terminal_color_14 = "#7FD9D4"
-	vim.g.terminal_color_15 = "#FFFFFF"
+	vim.g.terminal_color_12 = "#72A2EF"
+	vim.g.terminal_color_13 = "#E788CD"
+	vim.g.terminal_color_14 = "#8BDFE4"
 end
 
 --- Configure colorscheme
